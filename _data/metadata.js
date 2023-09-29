@@ -5,7 +5,7 @@ module.exports = {
 	description: "I am writing about my experiences as a budding web developer.",
 	author: {
 		name: "Dan Fearnley",
-		email: "dfearnley@me.com",
+		email: "dfearnley",
 		url: "https://dansexampleblog.com/about-me/"
 	}
 }
