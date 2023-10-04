@@ -8,23 +8,23 @@ eleventyNavigation:
 <br/>
 <form name="contact" netlify>
   <div class="input-group mb-3">
-  <input type="text" class="form-control" placeholder="Forename" aria-label="Forename">
-  <input type="text" class="form-control" placeholder="Surname" aria-label="Surname">
+  <input type="text" class="form-control" placeholder="Forename" aria-label="Forename" id="Forename" name="Forename">
+  <input type="text" class="form-control" placeholder="Surname" aria-label="Surname" id="Surname" name="Surname">
 </div>
 <br/>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
     <div id="emailHelp" class="form-text" style="color: #aaa">We'll never share your email with anyone else. Maybe Woolworths.</div>
   </div>
   <br/>
   <div class="input-group">
     <span class="input-group-text">Message</span>
-    <textarea class="form-control" aria-label="Message"></textarea>
+    <textarea class="form-control" aria-label="Message" id="message" name="message"></textarea>
   </div>
   <br/>
   <div class="mb-3 form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <input type="checkbox" class="form-check-input" id="terms" name="terms">
     <label class="form-check-label" for="exampleCheck1">Confirm you've read and accepted the <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank">Terms & Conditions</a></label>
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
